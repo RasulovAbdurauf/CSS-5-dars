@@ -1,0 +1,19 @@
+
+// var script = document.createElement('script');
+
+// script.src = '/js/uztelecom-widget.min.js'
+// script.type = 'text/javascript'
+
+// document.body.append(script);
+
+
+setTimeout(() => {
+    window.UztelecomWidget = new UztelecomWidget({
+        target: document.body,
+        props: {
+            name: name,
+            project_type: 'onlineChat',
+            lang:document.querySelector("[src='/js/widget.js']").getAttribute("lang")
+        }
+    });
+}, 1000);

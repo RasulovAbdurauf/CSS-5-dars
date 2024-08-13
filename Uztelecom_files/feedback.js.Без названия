@@ -1,0 +1,124 @@
+// "use strict";
+
+// $(document).ready(function () {
+//   let url = window.location.href;
+
+//   var surveyText = url.startsWith("https://uztelecom.uz/en")
+//     ? "Survey"
+//     : url.startsWith("https://uztelecom.uz/ru")
+//     ? "Опрос"
+//     : "So'rovnoma";
+
+//   var surveyUrl = url.startsWith("https://uztelecom.uz/ru")
+//     ? "https://yandex.ru/poll/12DLaYWY2AuhYm2wjkzQtv"
+//     : "https://yandex.ru/poll/SnN1h46gu3q8WqvT3ZZFT2";
+//   var btnStyle = url.startsWith("https://uztelecom.uz/ru")
+//     ? "-35px"
+//     : url.startsWith("https://uztelecom.uz/en")
+//     ? "-35px"
+//     : "-50px";
+
+//   var btnVisible = url.startsWith("https://uztelecom.uz/en") ? "none" : "";
+
+//   var btnSurvey = $("<div>", {
+//     class: "btn-survey",
+//     text: surveyText,
+//     style: "transform: rotate(90deg)",
+//     css: {
+//       textAlign: "center",
+//       minWidth: "100px",
+//       position: "fixed",
+//       padding: "10px 14px",
+//       left: btnStyle,
+//       bottom: "80px",
+//       cursor: "pointer",
+//       fontFamily: "Arial",
+//       backgroundColor: "#0164c9",
+//       color: "#fff",
+//       borderRadius: "7px 7px 0 0",
+//       // boxShadow: "0px 10px 10px rgba(0, 0, 0, 0.25)",
+//       fontSize: "18px",
+//       letterSpacing: "1px",
+//       fontWeight: 400,
+//       zIndex: 1000,
+//       display: btnVisible,
+//     },
+//     click: function () {
+//       var modal = $("<div>", {
+//         id: "modal",
+//         css: {
+//           display: "none",
+//           position: "fixed",
+//           top: "0",
+//           left: "0",
+//           width: "100%",
+//           height: "100%",
+//           backgroundColor: "rgba(0, 0, 0, 0.5)",
+//           zIndex: "9999",
+//         },
+//         click: function (event) {
+//           if (event.target === this) {
+//             $(this).css("display", "none");
+//           }
+//         },
+//       });
+
+//       var modalContent = $("<div>", {
+//         id: "modal-content",
+//         css: {
+//           position: "absolute",
+//           top: "50%",
+//           left: "50%",
+//           transform: "translate(-50%, -50%)",
+//           borderRadius: "10px",
+//           backgroundColor: "#fff",
+//         },
+//       });
+
+//       var iframe = $("<iframe>", {
+//         id: "poll-iframe",
+//         src: surveyUrl,
+//         style: "border: none",
+//         css: {
+//           width: "70vw",
+//           height: "85vh",
+//           borderRadius: "10px",
+//         },
+//       });
+
+//       var closeButton = $("<svg>", {
+//         text: "",
+//         css: {
+//           position: "absolute",
+//           top: "20px",
+//           right: "24px",
+//           width: "28px",
+//           height: "28px",
+//           fill: "none",
+//           cursor: "pointer",
+//         },
+//         click: function () {
+//           modal.css("display", "none");
+//         },
+//       });
+
+//       closeButton.append(
+//         $(
+//           '<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="14" cy="14" r="13.25" stroke="#424B53" stroke-width="1.5"></circle><path d="M19 9L9 19M9 9L19 19" stroke="#424B53" stroke-width="1.5" stroke-linecap="round"></path></svg>'
+//         )
+//       );
+
+//       modalContent.append(closeButton);
+//       modalContent.append(iframe);
+//       modal.append(modalContent);
+
+//       $("body").append(modal);
+
+//       modal.css("display", "block");
+//     },
+//   });
+
+//   setTimeout(() => {
+//     $("body").append(btnSurvey);
+//   }, "10000");
+// });

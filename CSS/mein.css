@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: white;
+    box-sizing: border-box;
+}
+.navbar-menu{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.navbar-item{
+    display: inline-block;
+    padding: 25px 10px;
+}
+.navbar-item a{
+    text-decoration: none;
+    background-color: lightgray;
+    color: black;
+    padding: 9px 16px;
+    margin-left: -22px;
+}
+.navbar-item:hover a{
+    color: white;
+    background-color: midnightblue;
+}
+.img{
+    text-align: center;
+}
+.btn a{
+    border: 1px solid black;
+    border-radius: 3px;
+    text-decoration: none;
+    color: black;
+    background-color: #f1f1f1;
+    padding: 15px 80px;
+}
+.wrap{
+    text-align: center;
+    margin-top: 25px;
+}

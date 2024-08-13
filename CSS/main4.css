@@ -1,0 +1,86 @@
+body{
+    background-color: #248f91;
+}
+.wrap{
+    width: 1200px;
+    margin: 10px auto;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 300px;
+    margin-left: 250px;
+}
+.wrap2{
+    width: 1200px;
+    margin: 10px auto;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-left: 250px;
+}
+.btn{
+    width: 200px;
+    display: inline-block;
+    padding: 15px 24px;
+    text-decoration: none;
+    color: orangered;
+    border: 2px solid orangered;
+    border-radius: 8px;
+    text-align: center;
+    margin-right: 100px;
+}
+.btn2{
+    width: 200px;
+    display: inline-block;
+    padding: 15px 24px;
+    text-decoration: none;
+    background-image: url("../rasm/btn.jpg");
+    background-size: 90%;
+    color: white;
+    border: 2px solid darkgreen;
+    border-radius: 35px;
+    text-align: center;
+    margin-right: 100px;
+}
+.btn3{
+    width: 200px;
+    display: inline-block;
+    padding: 15px 24px;
+    text-decoration: none;
+    background-color: deepskyblue;
+    color: white;
+    border: 2px solid deepskyblue;
+    border-radius: 8px;
+    text-align: center;
+}
+.btn4{
+    width: 200px;
+    display: inline-block;
+    padding: 15px 24px;
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    border: 2px solid orange;
+    border-radius: 8px;
+    text-align: center;
+    margin-right: 100px;
+}
+.btn5{
+    width: 200px;
+    display: inline-block;
+    padding: 15px 24px;
+    text-decoration: none;
+    color: violet;
+    border: 2px solid violet;
+    text-align: center;
+    margin-right: 100px;
+}
+.btn6{
+    width: 200px;
+    display: inline-block;
+    padding: 15px 24px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid springgreen;
+    border-radius: 35px;
+    text-align: center;
+}
+

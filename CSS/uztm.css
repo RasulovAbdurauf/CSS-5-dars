@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.drypc{
+    width: 160px;
+    box-sizing: border-box;
+    margin-right: -270px;
+    margin-bottom: -20px;
+    margin-top: 22px;
+}
+.dry{
+    width: 100%;
+    margin: 0 auto;
+    padding: 8px;
+}
+.dry-menu{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-left: 100px;
+    text-align: center;
+    list-style: none;
+}
+.dry-item{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 24px 10px;
+}
+.dry-item a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+.dry-item:hover a{
+    color: deepskyblue;
+}
+.dry-tem{
+    float: left;
+}
+
+.dry-item:after{
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url("../rasm/down-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center center;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.navbar-item{
+    position: relative;
+}
+.drop-menu{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 65px;
+    width: 170px;
+    color: white;
+    display: none;
+    text-align: left;
+}
+.navbar-item:hover .drop-menu{
+    display: block;
+}
+.drop-item{
+    list-style: none;
+    padding: 10px 15px;
+    position: relative;
+    /*border: 1px solid #f1f1f1;*/
+}
+.drop-item:hover{
+    color: deepskyblue;
+    background-color: lightblue;
+    border-radius: 7px;
+    border: 1px solid #f1f1f1;
+}
+.dry-item:hover > .drop-menu{
+    display: block;
+}
+.drop-item > .drop-menu{
+    left: 100%;
+    top: 0;
+}
+.drop-item:hover > .drop-menu{
+    display: block;
+}
+.dry-itm{
+    text-align: left;
+}
+.dry-itm{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 24px 10px;
+}
+.dry-itm a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+.dry-itm:hover{
+    border: 1px solid #f1f1f1;
+}
+asdfg
+.dry-mn{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-left: 100px;
+    text-align: center;
+    list-style: none;
+}
+.dry-tm{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 24px 10px;
+}
+.dry-tm a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+.dry-tm:hover a{
+    color: deepskyblue;
+}
+.dry-tm:after{
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url("../rasm/down-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center center;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.navbar-tm{
+    position: relative;
+}
+.drop-mn{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 65px;
+    width: 170px;
+    color: white;
+    display: none;
+    text-align: left;
+}
+.navbar-tm:hover .drop-mn{
+    display: block;
+}
+.drop-tm{
+    list-style: none;
+    padding: 10px 15px;
+    position: relative;
+    /*border: 1px solid #f1f1f1;*/
+}
+.drop-tm:hover{
+    color: deepskyblue;
+    background-color: lightblue;
+    border-radius: 7px;
+    border: 1px solid #f1f1f1;
+}
+.dry-tm:hover > .drop-mn{
+    display: block;
+}
+.drop-tm > .drop-mn{
+    left: 100%;
+    top: 0;
+}
+.drop-tm:hover > .drop-mn{
+    display: block;
+}

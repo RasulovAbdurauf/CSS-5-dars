@@ -1,0 +1,105 @@
+.div{
+    width: 400px;
+    height: 700px;
+    margin: 100px auto;
+    border: 1px solid grey;
+}
+.div1{
+    width: 100%;
+    height: 55%;
+    margin-bottom: 65px;
+    background-image: url("../rasm/cam4.png");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    background-color: #f1f1f1;
+}
+.text{
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+    text-align: center;
+    line-height: 10px;
+    border-radius: 50%;
+    color: white;
+    font-size: 15px;
+    padding-top: 8px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.div2{
+    width: 100%;
+    height: 10%;
+    margin-left: 20px;
+}
+.p{
+    color: gray;
+}
+.y{
+    padding: 2px 4px;
+    width: 60px;
+    text-align: center;
+    background-color: limegreen;
+    color: white;
+    margin-left: 87px;
+    margin-top: -20px;
+    border-radius: 3px;
+}
+.m1{
+
+}
+.uzc{
+    width: 120px;
+    margin-top: -45px;
+    box-sizing: border-box;
+}
+.line{
+    line-height: 5px;
+}
+.n{
+    margin-left: 125px;
+}
+.ns{
+    margin-left: 205px;
+    margin-top: -16px;
+    font-size: 13px;
+}
+.n2{
+    margin-left: 124px;
+    margin-top: -95px;
+}
+.ns2{
+    margin-left: 263px;
+    margin-top: -44px;
+    font-size: 15px;
+}
+.s{
+    width: 70px;
+    background-color: red;
+    color: white;
+    font-size: 28px;
+    padding: 4px 7px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 14px;
+}
+.e{
+    width: 60px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: yellow;
+    padding: 3px 5px;
+    text-align: center;
+    border-radius: 3px;
+    margin-left: 123px;
+    margin-top: -25px;
+}
+.e2{
+    color: grey;
+    font-size: 18px;
+    margin-left: 200px;
+    margin-top: -23px;
+}
